@@ -21,20 +21,20 @@ async def start(client, message):
 
  Send me /help for more info.
 
-A project by @slbotzone 🇱🇰
+A project by @CeylonTech_plus
 
 ✅ Join our bots channel and group
-🔰@SL_bot_zone🔰@slbotzone
+@CeylonTech_Official 🇱🇰@CeylonTech_plus 🇱🇰 and [subscribe](https://youtube.com/channel/UC04AUyOQmht0c8Bgc2GehRw) our YouTube Channel🙏🤗
 </b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "✍️Help👨‍💻", callback_data="help"),
+                                            "🤔Help🙋‍♂", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "✅Channel✅", url="https://t.me/slbotzone")
+                                            "✅Channel🇱🇰", url="https://t.me/CeylonTech_plus")
                                     ],[
                                       InlineKeyboardButton(
-                                            "📦Source Code📦", url="https://github.com/supunmadurangasl/TelegraphBot")
+                                            "📦Source Code📦", url="https://github.com/PercyOfficial/SLTelegraphBot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -53,12 +53,12 @@ async def help(client, message):
 
 🔴 Then wait for me to upload it to telegraph and send you the link.
 
-A project by @supunma 🇱🇰
+A project by @percy_jackson_4 🇱🇰
 
 ✅ Join our bots channel and group
-🔰@SL_bot_zone🔰@slbotzone.
+🔰@CeylonTech_Official🔰@CeylonTech_Plus.
 
-~ @supunma</b>""",
+~ @percy_jackson_4</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -67,7 +67,7 @@ A project by @supunma 🇱🇰
                                             " 🌀About 🌀", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "📦 Source Code 📦", url="https://github.com/supunmadurangasl/TelegraphBot")
+                                            "📦 Source Code 📦", url="https://github.com/PercyOfficial/SLTelegraphBot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -80,19 +80,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>🔥 Developer:</b> <a href="https://t.me/supunma">supun 🇱🇰</a>
+<b>🔥 Developer:</b> <a href="https://t.me/percy_jackson_4">Percy Jackson</a>
 
-<b>🔥 Support:</b> <a href="https://t.me/slbotzone">slbotzone</a>
+<b>🔥 Support:</b> <a href="https://t.me/CeylonTech_Official">Ceylon Tech🇱🇰</a>
 
 <b>🔥 Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @slbotzone</b>""",
+<b>~ @CeylonTech_plus</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙  Back 🔙  ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "📦Source Code 📦", url="https://github.com/supunmadurangasl/TelegraphBot")
+                                            "📦Source Code 📦", url="https://github.com/PercyOfficial/SLTelegraphBot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -108,7 +108,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**📤Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @slbotzone**',
+        await msg.edit_text(f'**📤Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @CeylonTech_plus**',
             disable_web_page_preview=True,
         )
     finally:
@@ -124,7 +124,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**📤 Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @slbotzone**',
+        await msg.edit_text(f'**📤 Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @CeylonTech_plus**',
             disable_web_page_preview=True,
         )
     finally:
@@ -162,8 +162,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @slbotzone
-"""
+Join @CeylonTech_plus"""
 )
 
 Jebot.run()
