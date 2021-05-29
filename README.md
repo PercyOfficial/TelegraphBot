@@ -1,6 +1,6 @@
 # SlTelegraph Bot🇱🇰
 
-## You can upload photos and videos to telegraph using this bot. Can be found in telegram as [@JETelegraphBot](http://t.me/SLtelegraph_ctBot)
+## You can upload photos and videos to telegraph using this bot. Can be found in telegram as [@SLtelegraph_ctbot](http://t.me/SLtelegraph_ctBot)
 
 ### Deploy to Heroku 🏃‍♂
 
