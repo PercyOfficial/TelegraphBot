@@ -14,4 +14,4 @@
 
 ### Developers:
 
-[@ImJanindu](https://t.me/ImJanindu)
+[@Percy](https://t.me/percy_jackson_4)
